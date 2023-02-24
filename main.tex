@@ -167,19 +167,6 @@ For this project, we wanted to create a fun, portable, simple game that could be
 Your Features section must include a listing of at least three key features that makes your project unique. Each item needs to be backed up with a description of what it will do and why. A listing of just three items is not enough, you need to describe what those features are and why your group feels they are needed. For that reason your features should have a paragraph for each key item that describes what that key feature is. A key feature should be something that is significant to your project. For example, a key feature an autopilot system is the ability to be able to set an altitude and the autopilot will automatically set the airspeed. That is a significant feature that has a large impact on that system.
 
 
-% Below is an example of inserting an image.  Not that LaTex
-% will determine the best location for the image.  Make sure
-% you replace this image with yours and place a proper caption.
-% You can use the \label{name} to name the figure and then reference
-% it from your writeup and LaTeX will automatically give it the correct
-% number. 
-\begin{figure}[!t]
-\centering
-\includegraphics[width=4.5in]{cpx01.jpg}
-\caption{This is the Circuit Playground Express}
-\label{fig:cpx}
-\end{figure}
-
 \section{PROBLEM STATEMENT}
 Here you will go into more detail on what problem you hope to solve or address.  You should discuss what the problem is and why it is important to solve it. In this section, you need to be clear on what the problem is, so do not think of this as a ``light'' section. It helps to define your project.
 
@@ -191,6 +178,13 @@ When you create your ``ref.bib'' file, don't forget to follow the standards for 
 The solution to this problem we have decided on pursuing is a game to be played as a healthy interruption for study breaks and general recreation. The game will be similar to basketball involving tossing a ball through a hoop to gather score. Much like the basketball games found in arcades. Though we will be building a portable compact version, for use in college dorms and on campus.
 
 To achieve this we will be using the Adafruit Circuit Playground and a light sensor. We will build a structure that will house the electronics and act as the hoop for the basketball game. The light sensor will be mounted in a position beneath the hoop to detect if the ball thrown by a player enters the hoop because it will break the beam and send a different signal back to the Circuit Playground. The physical hoop structure itself will be responsible for ensuring the beam will only break if the ball enters the hoop. The software we will develop will then use this signal to tally score during a timed interval when the game is started. We will also be changing how score and time is recorded and set depending on some different game modes we will develop once we have a simple functional prototype.
+
+\begin{figure}[!t]
+\centering
+\includegraphics[width=4.5in]{TeamDaedalusBasketballGame.png}
+\caption{Rough Sketch of the Basketball Game Design}
+\label{fig:cpx}
+\end{figure}
 
 With the final product the user should be able to select a game mode with the buttons on the Circuit Playground. Then during a timed interval the product will tally how many times the ball goes through the hoop and then give the total back once time is up.
 
@@ -223,6 +217,7 @@ With the final product the user should be able to select a game mode with the bu
 \label{fig:cpx}
 \end{figure}
 
+\newpage
 \section{CONCLUSION}
 With small living spaces, it can be difficult for college students to find a form of friendly completion that doesn't lie within video games. Our proposition to this challenge is to create a scaled-down basketball-shooting game using a CPX circuit board. The multitude of sensors and LED lights on the build will allow us to create a functional game that can provide students with entertainment and competition among their peers.
 
