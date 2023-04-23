@@ -1,5 +1,10 @@
 # AerE 361 Final Project Proposal
 
+
+## adafruit libray on github
+### https://github.com/adafruit/Adafruit_CircuitPlayground
+
+
 ## Statement of Academic Integrity
 
 
